@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agrinho 2025 - Campo e Cidade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Agrinho 2025</h1>
+    <h2>Festejando a Conexão Campo-Cidade</h2>
+  </header>
+
+  <!-- Botões de acessibilidade -->
+  <div class="acessibilidade">
+    <button onclick="aumentarFonte()">A+</button>
+    <button onclick="diminuirFonte()">A-</button>
+    <button onclick="alternarContraste()">Alto Contraste</button>
+  </div>
+
+  <main>
+    <section class="intro">
+      <p>O Brasil é um país cheio de tradições que unem o campo e a cidade. As festas típicas são exemplos perfeitos dessa união cultural e social entre as regiões. Conheça abaixo algumas dessas celebrações!</p>
+    </section>
+
+    <section class="festas">
+      <h3>🎉 Festa Junina</h3>
+      <img src="imagens/festa-junina.jpg" alt="Festa Junina com bandeirinhas coloridas" class="imagem-festa">
+      <p>A Festa Junina é uma das celebrações mais populares do Brasil, com origem no campo e forte presença nas cidades. Ela acontece em junho, em homenagem a santos como São João, Santo Antônio e São Pedro. As pessoas se vestem com roupas típicas caipiras, dançam quadrilha, acendem fogueiras, soltam balões (em alguns lugares) e saboreiam comidas típicas como pamonha, canjica, milho cozido e bolo de fubá. Essa festa representa a valorização da vida simples, do trabalho rural e das raízes brasileiras.</p>
+      <button onclick="alert('Festa Junina é símbolo da cultura brasileira!')">Saiba mais</button>
+
+      <h3>🎊 Carnaval Rural</h3>
+      <img src="imagens/carnaval-rural.jpg" alt="Bloco de carnaval no interior" class="imagem-festa">
+      <p>O Carnaval Rural é uma versão mais tradicional e familiar do carnaval brasileiro. É muito comum em cidades pequenas e regiões do interior, onde comunidades organizam desfiles com blocos carnavalescos simples, músicas antigas, fantasias criativas e comidas caseiras. Esse tipo de festa mostra como a alegria do carnaval pode ser vivida de forma mais próxima das tradições locais, unindo as famílias do campo e recebendo visitantes da cidade.</p>
+      <button onclick="alert('O Carnaval Rural mostra a alegria do povo do interior!')">Saiba mais</button>
+
+      <h3>🎶 Festa do Peão</h3>
+      <img src="imagens/festa-peao.jpg" alt="Peão montando em touro" class="imagem-festa">
+      <p>A Festa do Peão de Boiadeiro é um evento tradicional que celebra o estilo de vida do homem do campo. Acontece em várias regiões do Brasil, principalmente no interior, e atrai pessoas de todos os lugares, inclusive das grandes cidades. A festa inclui rodeios, provas de montaria, shows sertanejos, comidas típicas e desfiles de cavaleiros. Ela representa o orgulho da vida rural, a força do campo e sua ligação com a cultura popular brasileira.</p>
+      <button onclick="alert('A Festa do Peão valoriza o trabalho e a cultura do campo!')">Saiba mais</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto Agrinho 2025 - Colégio Estadual Presidente Tancredo Neves (Imbaú) </p>
+  </footer>
+
+  <!-- Script de acessibilidade -->
+  <script>
+    function aumentarFonte() {
+      document.body.style.fontSize = "18px";
+    }
+
+    function diminuirFonte() {
+      document.body.style.fontSize = "14px";
+    }
+
+    function alternarContraste() {
+      document.body.classList.toggle("alto-contraste");
+    }
+  </script>
+</body>
+</html>
