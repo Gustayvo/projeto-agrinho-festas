@@ -21,4 +21,20 @@ O site conta com recursos de acessibilidade:
 - Uso de `alt` em todas as imagens
 
 ## 📁 Estrutura de Pastas
+PROJETO-AGRINHO-GUSTAVO/
+├── index.html
+├── style.css
+├── imagens/
+│ ├── festa-junina.jpg
+│ ├── carnaval-rural.jpg
+│ └── festa-peao.jpg
 
+## 🔍 Visualização
+Para visualizar o site:
+1. Abra o arquivo `index.html` no seu navegador.
+2. Ou, se estiver usando o VS Code com Live Server, clique com o botão direito no `index.html` e selecione **"Open with Live Server"**.
+
+## 👨‍🏫 Autor
+Desenvolvido por **Gustavo**, aluno do 3º ano, como parte das atividades escolares do Projeto Agrinho 2025.
+
+---
